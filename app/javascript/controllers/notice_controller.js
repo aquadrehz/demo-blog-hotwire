@@ -1,5 +1,6 @@
 import { Controller } from "@hotwired/stimulus"
-import { FetchRequest } from "@rails/request.js"
+import { FetchRequest } from "@rails/request"
+
 // Connects to data-controller="notice"
 export default class extends Controller {
   clear(event) {

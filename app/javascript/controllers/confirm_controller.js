@@ -1,5 +1,5 @@
 import { Controller } from "@hotwired/stimulus"
-import { FetchRequest } from "@rails/request.js"
+import { FetchRequest } from "@rails/request"
 
 export default class extends Controller {
   static values = { message: String }

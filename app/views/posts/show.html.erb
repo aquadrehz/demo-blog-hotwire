@@ -13,7 +13,7 @@
     <%= link_to 'Edit this post', edit_post_path(@post), class: "mt-2 rounded-lg p-2 bg-green-500 inline-block font-medium text-white" %>
       <%= link_to "Back to posts", posts_path, class: "ml-2 rounded-lg p-2 bg-gray-300 inline-block font-medium" %>
     <div class="inline-block ml-2">
-      <%= button_to 'Delete this post', post_path(@post), method: :delete, data: { controller: 'confirm', confirm_message_value: 'Deseja remover ?', action: 'click->confirm#dialog' }, class: "mt-2 text-white rounded-lg p-2 bg-red-500 font-medium" %>
+      <%= button_to 'Delete this post', post_path(@post), method: :delete, data: { controller: 'confirm', confirm_message_value: 'Confirm remove ?', action: 'click->confirm#dialog' }, class: "mt-2 text-white rounded-lg p-2 bg-red-500 font-medium" %>
     </div>
   </div>
 
